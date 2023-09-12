@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+}
+
+#prof-pic {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+#age {
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#header, #footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.suprise-section {
+    margin-top: 50px;
+}
+
+.suprise-title {
+    margin-bottom: 10px;
+}
+
+#hint {
+    margin-top: 0;
+}
+
+.suprise-imgs {
+    margin: 20px auto;
+    max-width: 600px;
+    height: 600px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-size: cover;
+
+}
+

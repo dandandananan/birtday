@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Black+Ops+One&family=Creepster&family=La+Belle+Aurore&family=MedievalSharp&family=Orbitron&family=Rye&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <script src="js/index.js"></script>
+	<title>Home</title>
+</head>
+<body>
+	<div id="header">
+		<div>
+                <form>
+                <label for="genre">Choose Genre:</label>
+                <select id="genre" onchange="setGenre(this.value)">
+                    <option value="fantasy">Fantasy</option>
+                    <option value="space">Space</option>
+                    <option value="military">Military</option>
+                    <option value="romantic">Romantic</option>
+                    <option value="cowboy">Cowboy</option>
+                    <option value="superhero">Superhero</option>
+                </select>
+
+                <label for="color">Choose Color:</label>
+                <select id="color" onchange="setColor(this.value)">
+                    <option value="blueberry">Blue</option>
+                    <option value="watermelon">Watermelon</option>
+                    <option value="tomato">Tomato</option>
+                    <option value="banana">Banana</option>
+                    <option value="orange">Orange</option>
+                    <option value="avocado">Avovado</option>
+                </select>
+
+                <label for="mode">Choose your Mode:</label>
+                <select id="mode" onchange="setMode(this.value)">
+                    <option value="dark">Dark</option>
+                    <option value="light">Light</option>
+                </select>
+
+                <label for="edgeStyle">Choose your edge style:</label>
+                <select id="edgeStyle" onchange="setEdgeStyle(this.value)">
+                    <option value="sharp">Sharp</option>
+                    <option value="soft">Soft</option>
+                    <option value="round">Round</option>
+                </select>
+            </form>    
+            </div>
+		
+		<h1>Welcome to Birthday Celebrant Creator</h1>
+		<h2>Go to Homepage</h2>
+		<a href="index.php"><button>Go</button></a>
+	</div>
+</body>
+</html>
